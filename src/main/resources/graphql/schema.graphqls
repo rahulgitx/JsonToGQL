@@ -1,0 +1,13 @@
+type Examplee{
+	id:ID
+	name:String
+	email:String
+}
+
+type Query{
+	getAll:[Examplee]
+}
+
+type Mutation{
+	saveData:[Examplee]
+}
